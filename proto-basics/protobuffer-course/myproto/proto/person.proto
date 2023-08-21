@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package protoperson;
+
+option go_package = "shiva-proto/gostr";
+
+
+
+message Person {
+    string name = 1;
+}
